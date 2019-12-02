@@ -26,7 +26,8 @@
         $n2 = $_POST["n2"];
         $op = $_POST["ops"];
 
-        $calc = new Calculator();
+        // instanciating of your class (a copy of your package/class)
+        $calc = new Calculator;
 
         $calc->set_values($n1, $n2, $op);
         echo "Answer is " .$calc->compute();

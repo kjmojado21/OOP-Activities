@@ -61,7 +61,11 @@
 
                   $school->setValues($name,$yearLevel,$totalUnits,$lab);
 
-                  echo "<div class = 'alert alert-warning' >Total Tuition is: ".$school->calculate_tuition()."</div>";
+                  echo "<div class = 'alert alert-warning' >Name: ".$name.".
+                  <br>            
+                  Total Tuition is: ".$school->calculate_tuition()
+                  
+                  ."</div>";
               }
               
               
